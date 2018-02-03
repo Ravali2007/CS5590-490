@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+    <style>
+        body{
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUaiF70snLV4HV86LuSTo4yJbra7FYGHMCGIgZjOvGyzvzvd55") ;
+            background-repeat:no-repeat;
+            background-size: 3200px;
+
+        }
+
+        h1 {
+            Font-Family: Calibri;
+            font-size:65px;
+            color:saddlebrown;
+        }
+        .button1{
+            display: inline-block;
+            font-size: 24px;
+            color:white;
+            background-color:saddlebrown;
+        }
+        .button1:hover
+        {	background-color: saddlebrown;
+            color: Black;
+            border-radius: 50%;
+            box-shadow: grey;
+        }
+        input[type=text], select {
+            width: 10%;
+            padding: 12px 20px;
+            margin: 2px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=email], select
+        {   width: 20%;
+            padding: 12px 20px;
+            margin: 2px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=password], select
+        {   width: 20%;
+            padding: 12px 20px;
+            margin: 2px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        form{
+            Font-family:Calibri;
+            Font-color:purple;
+            Font-size:30px;
+        }
+    </style>
+</head>
+<script src="myscript.js"></script>
+<body>
+<h1><center>Course Registration</center></h1>
+<center>
+<form id="demo">
+    First name:
+    <input type="text" name="firstname"><br>
+    Last name:
+    <input type="text" name="lastname"><br>
+    UMKC ID:
+    <input type="text" name="UMKC ID"><br><br>
+    Level Of Education:<br>
+    <select id=deg>
+        <option value="null"><i>Select your degree</i></option>
+       <option value="Bachelors">Bachelors</option>
+        <option value="Masters">Masters</option>
+    </select><br>
+    Semester:<br>
+    <select id=sem>
+        <option value="null"><i>Select your semester</i></option>
+        <option value="Fall">Fall</option>
+        <option value="Spring">Spring</option>
+    </select><br>
+    Career Option:<br>
+    <select id=car>
+        <option value="null"><i>Select your career</i></option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Electrical Engineer">Electrical Engineer</option>
+    </select><br>
+
+    <button value="submit" class="button1" id="btn_click" onclick="onSubmit()">SUBMIT</button>
+</form>
+</center>
+</body>
+</html>
