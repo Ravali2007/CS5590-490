@@ -32,18 +32,16 @@ $(document).ready(function(){
 //2.Write an event handler to handle the click the event on the add to favorite button so that the color gets added to the list of favorite colors,
 // the content of the input gets cleared and the focus gets back on the input
     $( "#add-to-favorite" ).click(function() {
-   // alert(color);
+
     $('.colors').css('background-color', color);
     $('#colors').prepend("<div class='item' style='background-color: " + color + ";'><div>");
 
   });//3.Write events handlers such that whenever any item in the favorite colors is clicked or hovered, the color gets displayed in the preview div
   
   $("#colors").on('mouseover','.item',function(){
- //  $("#preview").css('background-color', );
+
     color = $(this).css('background-color');
     setPreviewColor(color);
 })
-//   function addBoxes(color) {
-//     $('#colors').prepend("<div class='item' style='background-color: " + color + ";'><div>");
-//     }
+
 });
