@@ -1,0 +1,34 @@
+<div class="tic-tac-toe">
+    <table class="scoreboard">
+        <tr>
+            <td> Player 1</td>
+            <td width="30"> &nbsp; </td>
+            <td> Player 2 </td>
+        </tr>
+        <tr>
+            <td class="score X">
+                {{scores.X}}
+            </td>
+            <td> &nbsp; </td>
+            <td class="score O">
+                {{scores.O}}
+            </td>
+        </tr>
+    </table>
+
+    <div class="board">
+        <table>
+            <tr ng-repeat="(row_index, row) in dummyArray track by $index">
+                <td ng-repeat="(column_index, column) in dummyArray track by $index" ng-click="mark(row_index, column_index)" class="{{data[row_index+''+column_index]}}">
+                    {{data[row_index+''+column_index]}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <button ng-click="init()">Reset</button>
+    <select ng-model="grid_size"
+            ng-options="option.value as option.label for option in grid_options"
+            ng-change="init()">
+    </select>
+</div>

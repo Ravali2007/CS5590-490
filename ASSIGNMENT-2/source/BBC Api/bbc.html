@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>BBC News API</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        body{
+            background-image: url("http://payload354.cargocollective.com/1/13/419343/9393024/Morning-Loop-Background_670.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size:50px;
+            background-color:firebrick;
+        }
+    </style>
+
+</head>
+<script>
+    var url = 'https://newsapi.org/v2/everything?' +
+        'q=russia&' +
+        'from=2018-02-16&' +
+        'sortBy=popularity&' +
+        'apiKey=5dde52eb4e2d4fabb03850ad8577790f';
+
+    var req = new Request(url);
+
+    fetch(req)
+        .then(function(response) {
+            return response.json();})
+        .then(function(json){
+            var myList = document.querySelector('ul');
+
+            for(var i = 0; i < 5 ; i++) {
+                var listItem = document.createElement('li');
+
+                listItem.innerHTML = "Article Title:<br> " + json.articles[i].title;
+                listItem.innerHTML +=""+ "<br> <br> <a href='" + json.articles[i].url + "' target='_blank'>" + "<img src='" + json.articles[i].urlToImage + "' ></a>";
+
+                myList.appendChild(listItem);
+            }
+        });
+</script>
+<body>
+<h1 style="color:white"><center>Top articles published in BBC on keyword "russia"</center></h1>
+<div id="container">
+    <div id="profile">
+        <ul></ul><br>
+        <div id=imge></div>
+    </div>
+</div>
+</body>
+</html>
