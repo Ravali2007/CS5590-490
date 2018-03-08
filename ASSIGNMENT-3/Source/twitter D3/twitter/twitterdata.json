@@ -1,0 +1,124 @@
+{
+  "name": "Users",
+  "children": [
+    {
+      "name": "Harper",
+      "children": [
+        {
+          "name": "Location :San Francisco",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:356",
+          "size": 743
+        }
+      ]
+    },
+        {
+          "name": "Lucy",
+          "children": [
+            {
+              "name": "Location :Somerville, MA",
+              "size": 3812
+            },
+            {
+              "name": "created_at:Fri Aug 27 18:04:38 +0000 2010",
+              "size": 6714
+            },
+            {
+              "name": "friends_count:598",
+              "size": 743
+            }
+          ]
+        },
+        {
+          "name": "Morgan",
+          "children": [
+            {
+              "name": "Location :Palo Alto",
+              "size": 3812
+            },
+            {
+              "name": "created_at:Thu Jul 19 15:58:07 +0000 2007",
+              "size": 6714
+            },
+            {
+              "name": "friends_count:237",
+              "size": 743
+            }
+          ]
+        },
+    {
+      "name": "Scarlette",
+      "children": [
+        {
+          "name": "Location :San Francisco,Californica",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Sat May 09 17:58:22 +0000 2009",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:149",
+          "size": 743
+        }
+      ]
+    },
+    {
+      "name": "Brooke",
+      "children": [
+        {
+          "name": "Location :Kansas city,Missouri",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Thu Mar 05 06:42:32 +0000 2009",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:295",
+          "size": 743
+        }
+      ]
+    },
+    {
+      "name": "Ellie",
+      "children": [
+        {
+          "name": "Location :Overland park,KS",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Fri Sep 21 18:23:07 +0000 2007",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:1367",
+          "size": 743
+        }
+      ]
+    },
+    {
+      "name": "Nicole",
+      "children": [
+        {
+          "name": "Location :Missouri",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Mon Nov 13 13:39:24 +0000 2006",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:588",
+          "size": 743
+        }
+      ]
+    }
+  ]
+}
