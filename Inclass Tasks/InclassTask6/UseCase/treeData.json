@@ -1,23 +1,19 @@
 {
-  "name": "United States",
+  "name": "Users",
   "children": [
     {
-      "name": "University of Missouri System",
+      "name": "Harper",
       "children": [
         {
-          "name": "UMKC",
-          "size": 3938
-        },
-        {
-          "name": "MUST",
+          "name": "Location :San Francisco",
           "size": 3812
         },
         {
-          "name": "UMSL",
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
           "size": 6714
         },
         {
-          "name": "UM",
+          "name": "friends_count:2743",
           "size": 743
         }
       ]
@@ -26,20 +22,16 @@
           "name": "Princeton University",
           "children": [
             {
-              "name": "Branch1",
-              "size": 3534
+              "name": "Location :San Francisco",
+              "size": 3812
             },
             {
-              "name": "Branch2",
-              "size": 5731
+              "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+              "size": 6714
             },
             {
-              "name": "Branch3",
-              "size": 7840
-            },
-            {
-              "name": "Branch4",
-              "size": 5914
+              "name": "friends_count:2743",
+              "size": 743
             }
           ]
         },
@@ -47,8 +39,16 @@
           "name": "Yale University",
           "children": [
             {
-              "name": "Branch1",
-              "size": 7074
+              "name": "Location :San Francisco",
+              "size": 3812
+            },
+            {
+              "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+              "size": 6714
+            },
+            {
+              "name": "friends_count:2743",
+              "size": 743
             }
           ]
         },
@@ -56,20 +56,16 @@
       "name": "University of chicago",
       "children": [
         {
-          "name": "Branch1",
-          "size": 17010
+          "name": "Location :San Francisco",
+          "size": 3812
         },
         {
-          "name": "Branch2",
-          "size": 5842
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+          "size": 6714
         },
         {
-          "name": "Branch3",
-          "size": 6064
-        },
-        {
-          "name": "Branch4",
-          "size": 7064
+          "name": "friends_count:2743",
+          "size": 743
         }
       ]
     },
@@ -77,12 +73,50 @@
       "name": "Harvard University",
       "children": [
         {
-          "name": "Branch1",
-          "size": 1759
+          "name": "Location :San Francisco",
+          "size": 3812
         },
         {
-          "name": "Branch2",
-          "size": 2165
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:2743",
+          "size": 743
+        }
+      ]
+    },
+    {
+      "name": "Harvard University",
+      "children": [
+        {
+          "name": "Location :San Francisco",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:2743",
+          "size": 743
+        }
+      ]
+    },
+    {
+      "name": "Harvard University",
+      "children": [
+        {
+          "name": "Location :San Francisco",
+          "size": 3812
+        },
+        {
+          "name": "created_at:Thu Jan 18 00:10:45 +0000 2007",
+          "size": 6714
+        },
+        {
+          "name": "friends_count:2743",
+          "size": 743
         }
       ]
     }
