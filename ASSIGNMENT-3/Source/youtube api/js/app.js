@@ -4,7 +4,7 @@ $(function() {
     $("form").on("submit", function(e) {
        e.preventDefault();
        // prepare the request
-       var request = gapi.client.youtube.search.list({
+       var request = gapi.client.twitter.friends.list({
             part: "snippet",
             type: "video",
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
@@ -33,7 +33,7 @@ function resetVideoHeight() {
 }
 
 function init() {
-    gapi.client.setApiKey("AIzaSyDLXKLC_nLWrH4d08KJFuNOJRIyZQNoYio");
+    gapi.client.setApiKey("AIzaSyBFmAutEija9GjkDbOr6RGdeWpdGDVBGAI");
     gapi.client.load("youtube", "v3", function() {
         }
     );
